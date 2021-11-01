@@ -57,6 +57,6 @@ SELECT
     (SELECT DISTINCT
             Salary
         FROM
-            Employee
+            Employees
         ORDER BY Salary DESC
         LIMIT 1 OFFSET 1) AS SecondHighestSalary
