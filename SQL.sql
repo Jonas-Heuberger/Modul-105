@@ -24,5 +24,6 @@ insert into student values (
                             'info',
                             'sdfadsfasa'
                            );
-
+update student set name = 'safsd'
+where id = 1
 
