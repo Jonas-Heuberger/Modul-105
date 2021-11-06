@@ -25,5 +25,7 @@ insert into student values (
                             'sdfadsfasa'
                            );
 update student set name = 'safsd'
-where id = 1
+where id = 1;
+
+
 
