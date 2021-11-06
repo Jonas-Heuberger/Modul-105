@@ -27,5 +27,20 @@ insert into student values (
 update student set name = 'safsd'
 where id = 1;
 
+create table numbers(
+  id int primary key not null auto_increment,
+  num int
+);
+
+insert into numbers values (
+                    1,
+                    4
+);
+
+select numbers.id + numbers.num
+from numbers;
+
+
+
 
 
