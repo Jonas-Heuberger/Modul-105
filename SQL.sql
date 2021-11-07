@@ -15,6 +15,13 @@ select * from student;
 desc student;
 show student;
 
+
+
+select * from student order by name asc;
+
+
+insert into student (name, major) values ('Anna', 'alsjfdaj'), ('bbbbbbb', 'bbbbbbb'), ('ccccccc', 'ccccccccc');
+
 alter table student add firstname varchar(20) not null;
 alter table student drop firstname;
 
@@ -46,6 +53,20 @@ insert into numbers (num)values (
                             4
                            );
 update numbers set num = 5 where id = 2;
+
+select *
+from numbers limit 1, 5;
+
+insert into numbers (num) values (4), (6), (10);
+
+insert into numbers (num) values (10), (10), (10);
+
+select  num from numbers order by num asc;
+
+select * from numbers where num IN (4, 10);
+
+select * from numbers where num NOT IN (4, 10);
+
 
 
 
