@@ -67,6 +67,44 @@ select * from numbers where num IN (4, 10);
 
 select * from numbers where num NOT IN (4, 10);
 
+select avg (num) from numbers;
+
+select upper (name) from student;
+
+select lower (name) from student;
+
+select sum (num) from numbers;
+
+SELECT num FROM numbers
+WHERE  num > 4
+ORDER BY num desc;
+
+SELECT num FROM numbers
+WHERE  num > (SELECT avg(num) FROM numbers)
+ORDER BY num DESC;
+
+select min(num) from numbers;
+
+ALTER TABLE student
+		CHANGE major hauptfach
+		    VARCHAR(30);
+
+select * from student;
+
+alter table student add (klasse varchar(30));
+
+alter table student drop klasse;
+
+
+
+
+
+
+
+
+
+
+
 
 
 
