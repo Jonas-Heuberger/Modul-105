@@ -40,6 +40,12 @@ insert into numbers values (
 select numbers.id + numbers.num
 from numbers;
 
+select * from numbers;
+
+insert into numbers (num)values (
+                            4
+                           );
+update numbers set num = 5 where id = 2;
 
 
 
