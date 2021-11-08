@@ -81,7 +81,7 @@ ORDER BY num desc;
 
 SELECT num FROM numbers
 WHERE  num > (SELECT avg(num) FROM numbers)
-ORDER BY num DESC;
+ORDER BY num DESC;  
 
 select min(num) from numbers;
 
