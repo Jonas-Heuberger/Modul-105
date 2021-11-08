@@ -73,7 +73,7 @@ select upper (name) from student;
 
 select lower (name) from student;
 
-select sum (num) from numbers;
+select sum(num) from numbers;
 
 SELECT num FROM numbers
 WHERE  num > 4
